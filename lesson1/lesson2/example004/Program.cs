@@ -1,6 +1,6 @@
-﻿int[] array = {1, 5, 8, 95, 857, 587, 57, 85};
-
+﻿int[] array = {1, 5, 8, 95, 857, 587, 57,95, 85};
 int n = array.Length;
+
 int find = 95;
 
 int index = 0;
@@ -10,6 +10,7 @@ int index = 0;
     if(array[index] == find)
     {
         Console.WriteLine(index);
-        index = index+1;
+    break;      
     }
+      index = index+1;
 }
